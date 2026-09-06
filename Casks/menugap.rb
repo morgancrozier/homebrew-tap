@@ -2,10 +2,10 @@ cask "menugap" do
   version "1.0.0"
   sha256 "831f478ecb5c540f91a7b58f444b8b86d3a7b60d724e9767b5ad10a32832e5b1"
 
-  url "https://github.com/morgancrozier/menugap/releases/download/v#{version}/MenuGap-#{version}.zip"
+  url "https://github.com/morgancrozier/menu-gap/releases/download/v#{version}/MenuGap-#{version}.zip"
   name "MenuGap"
   desc "Adjust menu bar item spacing"
-  homepage "https://github.com/morgancrozier/menugap"
+  homepage "https://github.com/morgancrozier/menu-gap"
 
   depends_on macos: :tahoe
 
